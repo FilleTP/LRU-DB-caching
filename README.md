@@ -5,6 +5,7 @@
 Overview: This Java program implements an LRU (Least Recently Used) Cache using a combination of HashMap and a doubly linked list. The cache supports adding, accessing, and automatically evicting the least recently used items when capacity is exceeded.
 
 ## Project Structure:
+```
 .
 ├── src
 │   ├── Main.java       # Entry point of the program
@@ -14,14 +15,18 @@ Overview: This Java program implements an LRU (Least Recently Used) Cache using 
 ├── bin                 # Compiled .class files go here
 ├── Makefile            # Build and run commands
 └── README.md           # Project documentation
+```
 
 ## How to Build and Run:
 
-Compile the program: make compile
+1. **Compile the program**:
+   `make compile`
 
-Run the program: make run
+2. **Run the program**:
+   `make run`
 
-Clean compiled files: make clean
+3. **Clean compiled files**:
+   `make clean`
 
 ## Classes:
 
